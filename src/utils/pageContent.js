@@ -1,5 +1,9 @@
-import softwareImg from "images/Image 22.png"
-import avatar from "images/avatar.png"
+import softwareImg from "assets/images/Image 22.png"
+import avatar from "assets/images/avatar.png"
+import desktop from "assets/icons/desktop.svg"
+import message from "assets/icons/message.svg"
+import note from "assets/icons/note.svg"
+import book from "assets/icons/book.svg"
 
 export const pageContent = [
     {
@@ -39,7 +43,28 @@ export const pageContent = [
             linkedin: "/",
             avatar,
             text: "Güclü proqram təminatı dizaynı və inkişaf etdirmə bacarıqlarına malik təcrübəli Proqram Tərtibatçı. Ölçəklənən müəssisə xidmətlərinin qurulması təcrübəsi. Kodun səmərəliliyini, dəqiqliyini və etibarlılığını artırmaq üçün həvəslidir. Yeni texnologiyaları öyrənməkdən zövq alan, yaxşı ünsiyyət bacarıqlarına malik yaxşı komanda oyunçusu."
-        }
+        },
+        acceptance: [
+            {
+                icon: desktop,
+                text: "Onlayn Müraciət Et"
+            },
+            {
+                icon: message,
+                text: "Mentor lə görüş"
+            },
+            {
+                icon: note,
+                text: "Ödəniş növü və dərs vaxtını seç"
+            },
+            {
+                icon: book,
+                text: "İmtahanda iştirak et"
+            },
+            {
+                text: "Qeydiyyatdan keç!"
+            },
+        ]
 
     },
     {
