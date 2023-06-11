@@ -1,4 +1,5 @@
-import softwareImg from "../images/Image 22.png"
+import softwareImg from "images/Image 22.png"
+import avatar from "images/avatar.png"
 
 export const pageContent = [
     {
@@ -36,7 +37,7 @@ export const pageContent = [
             name: "Rauf Ağayev",
             role: "Software Developer at Amazon",
             linkedin: "/",
-            avatar: undefined,
+            avatar,
             text: "Güclü proqram təminatı dizaynı və inkişaf etdirmə bacarıqlarına malik təcrübəli Proqram Tərtibatçı. Ölçəklənən müəssisə xidmətlərinin qurulması təcrübəsi. Kodun səmərəliliyini, dəqiqliyini və etibarlılığını artırmaq üçün həvəslidir. Yeni texnologiyaları öyrənməkdən zövq alan, yaxşı ünsiyyət bacarıqlarına malik yaxşı komanda oyunçusu."
         }
 

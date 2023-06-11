@@ -4,7 +4,7 @@ import { nanoid } from "nanoid"
 export const Participation = ({list}) => {
     return (
         <Section title="Kimlər iştirak edə bilər?">
-            <ul className="list-disc">
+            <ul className="list-disc pl-5">
                 {
                     list.map(item => (
                         <li key={nanoid()}>

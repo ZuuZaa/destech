@@ -2,7 +2,7 @@ import { Software } from "pages/Software";
 
 function App() {
   return (
-    <div  className="bg-[#444] text-[#cfcfcf] h-full">
+    <div  className="text-[#f1f1f1] bg-[#343434] h-full">
       <Software/>
     </div>
   );
