@@ -6,9 +6,9 @@ import { Support } from "./Support"
 export const Questions = ({ data }) => {
     return (
         <>
-            <Description text={data.description} />
-            <Participation list={data.participation} />
-            <Learning list={data.learning} />
+            <Description {...data.description} />
+            <Participation {...data.participation} />
+            <Learning {...data.learning} />
             <Support {...data.support}/>
         </>
     )

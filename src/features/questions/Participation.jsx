@@ -1,9 +1,9 @@
 import { Section } from "components/Section"
 import { nanoid } from "nanoid"
 
-export const Participation = ({list}) => {
+export const Participation = ({title, list}) => {
     return (
-        <Section title="Kimlər iştirak edə bilər?">
+        <Section title={title}>
             <ul className="list-disc pl-5">
                 {
                     list.map(item => (

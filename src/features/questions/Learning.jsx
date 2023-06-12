@@ -1,9 +1,9 @@
 import { Section } from "components/Section"
 import { nanoid } from "nanoid"
 
-export const Learning = ({list}) => {
+export const Learning = ({title, list}) => {
   return (
-    <Section title="Destech-çilər kimlər olacaq? 😍">
+    <Section title={title}>
         <ul className="flex flex-wrap gap-5">
             {
                 list.map(item => (
